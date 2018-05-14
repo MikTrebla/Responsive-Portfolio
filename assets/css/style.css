@@ -249,8 +249,9 @@ input[type=submit] {
 }
 
 @media screen and (max-width : 640px) {
-  #main-container, #masthead {
+  #main-container, #masthead, #container {
     width : 100%;
+
   }
   #masthead {
     position : static;
@@ -258,14 +259,17 @@ input[type=submit] {
   }
   #main-container {
     padding : 5% 50px;
+    
   }
 
   .auth-image {
     width : 400px;
+
   }
 
   #logo {
     width : 100%;
+    padding : 0;
   }
 
   nav {
@@ -273,4 +277,6 @@ input[type=submit] {
     padding-left : 20%;
     padding-bottom : 5%;
   }
+
+
 }
